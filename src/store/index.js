@@ -37,8 +37,6 @@ const getters ={
 }
 const mutations ={
     go(state,s){
-        //console.log(s[1]);
-        //console.log(s[0]);
         s[0].push({path:'/'+s[1]});
     },
 }
