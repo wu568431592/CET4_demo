@@ -44,7 +44,6 @@
             }
             var li = document.getElementsByClassName('formsli');
             for (var i = 0; i<li.length ;i++){
-                console.log(1)
                 li[i].setAttribute('class','formsli')
             };
             me.setAttribute('class','formsli showmore')

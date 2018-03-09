@@ -13,7 +13,7 @@ xmlhttp.onreadystatechange =function(){
       state = {serverIP:0}
   }
 }
-xmlhttp.open('GET','http://192.168.78.65/json/users.php',false);
+xmlhttp.open('GET','http://172.17.160.186/json/users.php',false);
 xmlhttp.send();
 const getters ={
   stime:function(){
@@ -30,7 +30,7 @@ const getters ={
         forms = {}
       }
     }
-    xmlhttp.open('GET', 'http://192.168.78.65/json/plan.php', false);
+    xmlhttp.open('GET', 'http://172.17.160.186/json/plan.php', false);
     xmlhttp.send();
     return forms
   }

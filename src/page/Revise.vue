@@ -67,7 +67,7 @@
                 xml.send();
                 this.form = state.form;
                 this.meaning = state.meaning;
-                this.nsrc = 'http://192.168.81.1/sound/'+state.form+'.mp3';
+                this.nsrc = 'http://'+this.$store.state.serverIP+'/sound/'+state.form+'.mp3';
                 this.times -- ;
               }else{
                 me.$router.push({path:'/index'})

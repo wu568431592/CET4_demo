@@ -6,11 +6,11 @@
 //  }
 ?>
 {
-  serverIP:'192.168.78.65',
+  serverIP:'172.17.160.186',
   newbi:'1',
   showleft:false,
   openid:'o4grovzHZW1jVksBAVMoU_tstwdQ',
-  headimgurl:'http://192.168.78.65/static/img/logo.png',
+  headimgurl:'http://172.17.160.186/static/img/logo.png',
   name:'John',
   nickname:'灯下草虫鸣',
   sex:'1',
