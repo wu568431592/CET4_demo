@@ -32,4 +32,5 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 使得 apache服务器 支持跨域请求。
 #
 ## 设置服务器IP
-将项目文件中 src/store/index.js 中 state的 serverIP 修改为本机IP地址即可。
+1、将项目文件中 src/store/index.js 中 state的 serverIP 修改为本机IP地址即可。
+2、将项目文件中 dist/json/users.php 中的serverIP 和headimgurl 中的ip地址 修改为本机IP地址即可。
